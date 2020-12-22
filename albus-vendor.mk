@@ -30,8 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/motorola/albus/proprietary/etc/zaf/zaf_mot_imx362.json:$(TARGET_COPY_OUT_SYSTEM)/etc/zaf/zaf_mot_imx362.json \
-    vendor/motorola/albus/proprietary/etc/zaf/zaf_mot_s5k2l7.json:$(TARGET_COPY_OUT_SYSTEM)/etc/zaf/zaf_mot_s5k2l7.json \
+    vendor/motorola/albus/proprietary/vendor/etc/zaf/zaf_mot_imx362.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_mot_imx362.json \
+    vendor/motorola/albus/proprietary/vendor/etc/zaf/zaf_mot_s5k2l7.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_mot_s5k2l7.json \
     vendor/motorola/albus/proprietary/vendor/lib/libS5k2l7Pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libS5k2l7Pdaf.so \
     vendor/motorola/albus/proprietary/vendor/lib/libS5k2l7PdafCamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libS5k2l7PdafCamif.so \
     vendor/motorola/albus/proprietary/vendor/lib/lib_mot_app6_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_app6_metadata.so \
