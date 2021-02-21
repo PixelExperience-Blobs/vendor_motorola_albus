@@ -37,14 +37,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libcamerabgproc-jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerabgproc-jni.so \
     vendor/motorola/albus/proprietary/vendor/lib/libcamerabgprocservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerabgprocservice.so \
     vendor/motorola/albus/proprietary/vendor/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcameraddm.so \
+    vendor/motorola/albus/proprietary/lib/libmodhw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmodhw.so \
+    vendor/motorola/albus/proprietary/lib/libmodmanager_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmodmanager_system.so \
     vendor/motorola/albus/proprietary/lib/libmodmanager_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmodmanager_system.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmot-qc-fd-offline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot-qc-fd-offline.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_lux_standardization.so \
+    vendor/motorola/albus/proprietary/lib/libvibratorhw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvibratorhw.so \
     vendor/motorola/albus/proprietary/vendor/lib/motorola.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.device@1.0.so \
-    vendor/motorola/albus/proprietary/lib64/libmodhw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmodhw.so \
-    vendor/motorola/albus/proprietary/lib64/libmodmanager_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmodmanager_system.so \
-    vendor/motorola/albus/proprietary/lib64/libvibratorhw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvibratorhw.so \
-    vendor/motorola/albus/proprietary/lib64/motorola.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/motorola.hardware.vibrator@1.0.so \
+    vendor/motorola/albus/proprietary/lib/motorola.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/motorola.hardware.vibrator@1.0.so \
     vendor/motorola/albus/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
     vendor/motorola/albus/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/albus/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
@@ -529,10 +529,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/motorola.hardware.audio.eqservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.audio.eqservice@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib/soundfx/libmmieffectswrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmmieffectswrapper.so \
     vendor/motorola/albus/proprietary/vendor/lib/soundfx/libspeakerbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libspeakerbundle.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/com.motorola.mod@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.mod@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8953.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/hw/keystore.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8953.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libmodmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmodmanager.so
+    vendor/motorola/albus/proprietary/vendor/lib64/hw/keystore.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8953.so
 
 PRODUCT_PACKAGES += \
     ModFmwkProxyService \
